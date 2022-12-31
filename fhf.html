@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FHF - Support</title>
+</head>
+<body style="background-color: #9ED0E6;">
+    <nav class="navbar navbar-expand-lg text-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/haiti-drapo.png" alt="Drapo Ayiti" title="Drapo Ayiti" class="rounded">
+          </a>
+          <button id="toggler" class="navbar-toggler" style="border-color: #fff;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <ion-icon name="menu-outline" size="large" style="color: #fff;"></ion-icon>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Akèy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Kontakte N</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Fè yon don</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Dekouvri</a>
+              </li>
+            </ul>
+            <div class="social-nav">
+                <i class="fa-brands fa-twitter ms-1"></i>
+                <i class="fa-brands fa-facebook ms-1"></i>
+                <i class="fa-brands fa-instagram ms-1"></i>
+                <i class="fa-brands fa-linkedin ms-1"></i>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <section id="carousel">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators mb-5">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> 
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" >
+                    <img src="assets/drapeau-haiti.jpg" class="d-block w-100" alt="Drapo Ayiti" title=""  height="300px">
+                    <div class="caption d-md-block text-light">
+                      <h2 class="display-1">Lorem ipsum</h2>
+                      <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ratione.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item active" >
+                    <img src="assets/FHF-carousel1.jpg" class="d-block w-100" alt="Drapo Ayiti" title="" height="300px">
+                    <div class="caption d-md-block text-light">
+                      <h2 class="display-1">Lorem ipsum</h2>
+                      <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ratione.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item active" >
+                    <img src="assets/logo-carousel.jpg" class="d-block w-100" alt="Drapo Ayiti" title="" height="300px">
+                    <div class="caption d-md-block text-light">
+                      <h2 class="display-1">Lorem ipsum</h2>
+                      <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ratione.</p>
+                    </div>
+                  </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </div>
+    </section>
+
+    <!-- <section class="slider-css">
+      <div class="slide">
+        <p class="el">Hello World</p>
+        <p class="el">Hi World</p>
+        <p class="el">Yo World, wassup?</p>
+      </div>
+    </section> -->
+
+    <section class="offer d-flex justify-between container mt-3">
+      <div class="card col-12 col-md-4 col-sm-12 mb-2">
+        <img src="assets/drapeau-haiti.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-dark">
+          <h5 class="card-title display-3"><span class="plan">Plan Joker</span> <span class="pri">10<span class="dollar">$</span>/mwa</span></h5>
+          <p class="card-text lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam blanditiis quaerat sunt ipsam qui quisquam iste recusandae libero, eum eos!</p>
+          <a href="#" class="btn btn-secondary">Don</a>
+        </div>
+      </div>
+      <div class="card col-12 col-md-4 col-sm-12 mb-2">
+        <img src="assets/drapeau-haiti.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-dark">
+          <h5 class="card-title display-3"><span class="plan">Plan Poker</span> <span class="pri">30<span class="dollar">$</span>/mwa</span></h5>
+          <p class="card-text lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam blanditiis quaerat sunt ipsam qui quisquam iste recusandae libero, eum eos!</p>
+          <a href="#" class="btn btn-secondary">Don</a>
+        </div>
+      </div>
+      <div class="card col-12 col-md-4 col-sm-12 mb-2">
+        <img src="assets/drapeau-haiti.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-dark">
+          <h5 class="card-title display-3"><span class="plan">Plan Extra</span> <span class="pri">50<span class="dollar">$</span>/mwa</span></h5>
+          <p class="card-text lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam blanditiis quaerat sunt ipsam qui quisquam iste recusandae libero, eum eos!</p>
+          <a href="#" class="btn btn-secondary">Don</a>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="fhf.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+</body>
+<footer class="container-fluid py-4">
+  <p class="display-8 text-light text-center">
+    @Copyright - 2022 <br>
+    Created by Jean David Bruno
+  </p>
+</footer>
+</html>
